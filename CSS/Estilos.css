@@ -95,6 +95,36 @@ body{
     color: #111;
 }
 
-header {
-    background: #440569;
+/* Galería */
+.galeria {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+article {
+    text-align: center;
+    margin: 10px;
+}
+
+/* Imágenes */
+img {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(157, 10, 241);
+    }
+    
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
 }
